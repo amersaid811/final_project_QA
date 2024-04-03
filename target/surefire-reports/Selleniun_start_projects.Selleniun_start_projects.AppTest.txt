@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: Selleniun_start_projects.Selleniun_start_projects.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.758 s - in Selleniun_start_projects.Selleniun_start_projects.AppTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.467 s <<< FAILURE! - in Selleniun_start_projects.Selleniun_start_projects.AppTest
+Tests1 on Tests1(Selleniun_start_projects.Selleniun_start_projects.AppTest)(Selleniun_start_projects.Selleniun_start_projects.AppTest)  Time elapsed: 0.077 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'AMER-SAID', ip: '192.168.1.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: driver.version: FirefoxDriver
+	at Selleniun_start_projects.Selleniun_start_projects.AppTest.setup(AppTest.java:28)
+
